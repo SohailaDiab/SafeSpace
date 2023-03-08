@@ -35,5 +35,19 @@ async def on_message(message):
     
     #DMs the user
     await message.author.send(f"{config.hello_msg}\nAccording to {message.content}\n{config.choose_msg()}")
-    
+
+# make bot enter the voice channels   
+@bot.event
+async def on_voice_state_update(member, before, after):
+  if before.channel is None and after.channel is not None:
+    # User joined a voice channel
+    channel = after.channel
+    await channel.connect()
+  
+  elif before.channel is not None and after.channel is None:
+    # User left a voice channel
+    voice_client = bot.voice_clients[0]
+    await voice_client.disconnect()
+
+
 bot.run(config.TOKEN)

@@ -1,13 +1,11 @@
 from transformers import pipeline
-
-classifier = pipeline("zero-shot-classification", model = 'facebook/bart-large-mnli', multi_label=True, use_cdn=False)
-labels = ["Bullying", "Natural", "discrimination"]
+classifier = pipeline('text-classification','unitary/toxic-bert')
 
 def handle_response(text):
-    result = classifier(text, candidate_labels=labels)
-    label = result['labels'][0]
+    score = classifier(text)[0]['score']
 
-    if result['scores'][0]>=0.5:
-        if label not in ["Natural"]:
-            return True
+    if score>=0.5:
+        return True
         
+#text = "The weather is nice today, isn't it?"
+#handle_response(text)
