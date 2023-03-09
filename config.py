@@ -1,8 +1,8 @@
 import numpy as np
 
-TOKEN = "MTA4MjM2NTIxOTUyMDY1OTU0Ng.GIDlaz.rasVn4mY7ecON9YgUpVadRZkPwRFmsnPlDDV7M"
+TOKEN = "YOUR_TOKEN"
 PREFIX= "$"
-moderator_id = 907992236522864710
+moderator_id = MENTOR_ID
 
 <<<<<<< HEAD
 hello_msg = "Hi , I hope you’re doing awesome! 😄\n "
