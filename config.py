@@ -4,30 +4,20 @@ TOKEN = "MTA4MjM2NTIxOTUyMDY1OTU0Ng.GIDlaz.rasVn4mY7ecON9YgUpVadRZkPwRFmsnPlDDV7
 PREFIX= "$"
 moderator_id = 907992236522864710
 
-hello_msg = "Hello, I hope you're doing well. "
+# These are the messages sent to the user that said toxic words
+
+hello_msg = "Hi there {name}, I hope you’re doing awesome! 😄\n "
 
 reply_members = [
-    """Hello there {name}, I hope you’re doing awesome! 😄\n
-       I noticed that you sent: {} 
-       Which was not so nice 😢 Did you mean to send that?\n
+    """Which could be hurtful to your colleague 😢 Did you mean to send that?\n
        I’d be very happy if you rephrase it. Let’s keep our server a safe place for all 🙌"""
     
-    """Hello there {name}, I hope you’re doing awesome! 😄\n
-
-       Did you really mean to say “{}”?\n
-
-       It could hurt the other person’s feelings ☹️\n
-       I’d be very happy if you think through what you said.\n 
-
+    """It could hurt the other person’s feelings ☹️\n
+       You might wanna reconsider the words you chose.\n 
        Let’s aim to keep this server a safe place for all! 🙌
     """
     
-    """Hello there {name}, I hope you’re doing great! 😄\n 
-
-       I noticed that you sent: {}\n 
-
-       I know you might not realize it, but your words can have a big impact on others ☹️\n 
-
+    """I know you might not realize it, but your words can have a big impact on others ☹️\n 
        I’d be very happy if you think through what you said. Let’s try to keep this server a positive, safe place for all ❤️\n 
     """
 ]
