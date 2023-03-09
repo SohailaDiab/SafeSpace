@@ -53,7 +53,7 @@ async def on_message(message):
       print('Message sent successfully')
       
       #DMs the user
-      await message.author.send(f"{config.hello_msg}\nAccording to '{message.content}'\n{config.choose_msg()}")
+      await message.author.send(f'{config.hello_msg}\nI noticed that you sent: "{message.content}"\n{config.choose_msg()}')
 
   # check if the message is an image
   if message.attachments:
@@ -131,7 +131,7 @@ async def on_voice_state_update(member, before, after):
     voice_client = bot.voice_clients[0]
     await voice_client.disconnect()
 
-
+# To be added in the future - Voice Channel feature
 """
 async def on_voice_state_update(member, before, after):
   # Check if the member is the bot itself
