@@ -1,6 +1,7 @@
 io
 PIL
 numpy
+python==3.8
 config
 discord
 requests
