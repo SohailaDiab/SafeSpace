@@ -15,7 +15,7 @@ Our goal is to help reduce the negative effects of cyberbullying on Discord and 
 3. Copy your bot token from the Bot tab of your application page.<br>
 4. Change TOKEN variable in [config.py](https://github.com/SohailaDiab/SafeSpace/blob/main/config.py) with your bot token.<br>
 5. Change moderator_id variable in [config.py](https://github.com/SohailaDiab/SafeSpace/blob/main/config.py) to your server moderator id in .<br>
-6. Open cmd and write in cmd `python Bot.py` and make sure you in right path.
+6. Write in cmd `python Bot.py` and make sure you in the right path.
 
 
 ## About Model
