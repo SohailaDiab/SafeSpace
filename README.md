@@ -20,7 +20,7 @@ Our goal is to help reduce the negative effects of cyberbullying on Discord and 
 
 
 ## About Model
-First, we got a ready transformer from [Hugging Face](https://huggingface.co/) called [toxic-bert](https://huggingface.co/unitary/toxic-bert)and this falls under the category, which is `Text Classification`. It detects toxic words, are they toxic, obscene, insult, identity_hate, threat, serve_toxic, or neutral?
+First, we got a ready transformer from [hugging face](https://huggingface.co/) called [toxic-bert](https://huggingface.co/unitary/toxic-bert)and this falls under the category, which is `Text Classification`. It detects toxic words, are they toxic, obscene, insult, identity_hate, threat, serve_toxic, or neutral?
 
 After that, we used another transformer named [CLIPProcessor from openai](https://huggingface.co/openai/clip-vit-large-patch14), and this falls under the category, which is `Zero-Shot Image Classification`. We enter the input image and the Labels that we would like to classify on in order to detect the content of the images, is it bullying or not?
 
