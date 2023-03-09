@@ -13,11 +13,13 @@ SafeSpace is a Discordbot that monitors the messages and images sent to Discord 
 
 
 ## Set up 
-1.First you have to create a Discord workspace https://discord.com/developers/applications.<br>
-2.In your workspace you have to create a bot.<br>
+1.Install Python and the Discord.py library.<br>
+2.Create a new application in the [Discord Developer Portal](https://discord.com/developers/applications) and add a bot user to it.<br>
+2.Copy your bot token from the Bot tab of your application page.<br>
 3.Get the api token related to the bot that you have created.<br>
-4.Edit the file name application.properties (in the project) with your api token. DiscordBotToken= api_token.<br>
-5.Run the application and your bot will be ready.<br>
+4.Write your bot code using Python and the Discord.py library.<br>
+5.Run your bot code and test it in your Discord server.<br>
+6.Deploy your bot code to a hosting service such as Heroku or Digital Ocean to keep it running 24/7<br>
 
 
 ## About Model
