@@ -1,0 +1,8 @@
+io
+PIL
+numpy
+config
+discord
+requests
+responses
+transformers
