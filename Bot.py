@@ -17,6 +17,9 @@ bot = commands.Bot(command_prefix=config.PREFIX, intents=intents)
 
 @bot.event
 async def on_ready():
+  """
+  This method to check if method is online or not
+  """
   print("-----")
   print("Bot is online!")
   print("-----")  
@@ -24,6 +27,15 @@ async def on_ready():
 #checking all sent messages 
 @bot.event
 async def on_message(message):
+  """
+  check if messages or images written by users are bullying or racist or bad msg
+  and ignore messages or images sent by the bot itself.
+  after that send removed messages or images to the moderator
+  and DM users who write these bullying messages or images.
+  
+  Parameters:
+  - message: str
+  """
   if message.author == bot.user: # Ignore messages sent by the bot itself
     return
     
@@ -42,6 +54,10 @@ async def on_message(message):
       
       #DMs the user
       await message.author.send(f'{config.hello_msg}\nI noticed that you sent: "{message.content}"\n{config.choose_msg()}')
+<<<<<<< HEAD
+=======
+
+>>>>>>> 83d115ffb97cff864fdc1cb1786d5dc296364419
   # check if the message is an image
   if message.attachments:
     for attachment in message.attachments:
@@ -59,12 +75,27 @@ async def on_message(message):
         
  
 async def start_recording(voice_channel):
+  """
+  Recording audio from audio channels
+  
+  Parameters:
+  - voice_channel: dict
+  
+  Returns:
+  - output.mp3: recorded audio
+  """
   # Connect to the voice channel
   vc = await voice_channel.connect()
   # Start recording
   vc.start_recording("output.mp3")
 
 async def stop_recording(voice_channel):
+  """
+  Stop recording audio from audio channels
+  
+  Parameters:
+  - voice_channel: dict
+  """
   # Disconnect from the voice channel
   vc = get(bot.voice_clients, guild=voice_channel.guild)
   if vc:
@@ -75,6 +106,15 @@ async def stop_recording(voice_channel):
 # make bot enter the voice channels   
 @bot.event
 async def on_voice_state_update(member, before, after):
+  """
+  Bot enter voice channels when someone enters 
+  and leaves when there is no one in channels.
+  
+  Parameters:
+  - member: dict
+  - before: dict
+  - after: dict
+  """
   # Check if the member is the bot itself
   if member.id == bot.user.id:
     return
@@ -94,7 +134,7 @@ async def on_voice_state_update(member, before, after):
     voice_client = bot.voice_clients[0]
     await voice_client.disconnect()
 
-
+# To be added in the future - Voice Channel feature
 """
 async def on_voice_state_update(member, before, after):
   # Check if the member is the bot itself
