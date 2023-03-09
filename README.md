@@ -10,13 +10,13 @@ Our goal is to help reduce the negative effects of cyberbullying on Discord and 
 
 
 ## Set Up 
-1.Install Python and the Discord.py library.<br>
-2.Create a new application in the [Discord Developer Portal](https://discord.com/developers/applications) and add a bot user to it.<br>
-2.Copy your bot token from the Bot tab of your application page.<br>
-3.Get the api token related to the bot that you have created.<br>
-4.Write your bot code using Python and the Discord.py library.<br>
-5.Run your bot code and test it in your Discord server.<br>
-6.Deploy your bot code to a hosting service such as Heroku or Digital Ocean to keep it running 24/7<br>
+1. Install Python and the Discord.py library.<br>
+2. Create a new application in the [Discord Developer Portal](https://discord.com/developers/applications) and add a bot user to it.<br>
+3. Copy your bot token from the Bot tab of your application page.<br>
+4. Get the api token related to the bot that you have created.<br>
+5. Write your bot code using Python and the Discord.py library.<br>
+6. Run your bot code and test it in your Discord server.<br>
+7. Deploy your bot code to a hosting service such as Heroku or Digital Ocean to keep it running 24/7<br>
 
 
 ## About Model
