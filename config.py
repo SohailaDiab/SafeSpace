@@ -10,16 +10,14 @@ hello_msg = "Hi there, I hope you’re doing awesome! 😄\n "
 
 reply_members = [
     """Which could be hurtful to your colleague 😢 Did you mean to send that?\n
-       I’d be very happy if you rephrase it. Let’s keep our server a safe place for all 🙌"""
+       I’d be very happy if you rephrase it. Let’s keep our server a safe place for all 🙌""",
     
     """It could hurt the other person’s feelings ☹️\n
        You might wanna reconsider the words you chose.\n 
-       Let’s aim to keep this server a safe place for all! 🙌
-    """
+       Let’s aim to keep this server a safe place for all! 🙌""",
     
     """I know you might not realize it, but your words can have a big impact on others ☹️\n 
-       I’d be very happy if you think through what you said. Let’s try to keep this server a positive, safe place for all ❤️\n 
-    """
+       I’d be very happy if you think through what you said. Let’s try to keep this server a positive, safe place for all ❤️\n """
 ]
     # Additional messages to be edited and added
 #     """Sometimes we all say things we don't mean when we're upset, but it's important to be mindful of how our words can affect others. Let's strive to treat everyone with kindness and respect, even when we're feeling angry or frustrated. If you need support or guidance, please don't hesitate to reach out""",
