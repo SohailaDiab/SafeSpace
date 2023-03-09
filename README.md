@@ -4,7 +4,7 @@ Bullying is a pervasive problem in our society, and online platforms are not imm
 
 In response to this growing problem, we have developed a solution in the form of a Discord bot called `Spacey` that can help reduce bullying behavior on the platform. <br>
 
-**Spacey** is a Discordbot that monitors the messages and images sent to Discord Server and detects abusive and bullying images and messages. If any such incident is detected, SafeSpace deletes the message immediately, sends a direct message to that user on your behalf and warns them not to bully you, and also sends a message to the moderators to inform them of the behavior that was issued by the person, making it easier to identify and take appropriate action towards the offending user. This system is designed to create a safer, more positive environment on Discord, promoting respectful communication and discouraging bullying behavior.<br>
+**Spacey** is a Discordbot that monitors the messages and images sent to Discord Server and detects abusive and bullying images and messages. If any such incident is detected, Spacey deletes the message immediately, sends a direct message to that user on your behalf and warns them not to bully you, and also sends a message to the moderators to inform them of the behavior that was issued by the person, making it easier to identify and take appropriate action towards the offending user. This system is designed to create a safer, more positive environment on Discord, promoting respectful communication and discouraging bullying behavior.<br>
 
 
 ## Our Goal
