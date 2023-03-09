@@ -9,7 +9,7 @@ SafeSpace is a Discordbot that monitors the messages and images sent to Discord 
 Our goal is to help reduce the negative effects of cyberbullying on Discord and create a more inclusive, welcoming community for all users. By implementing this bot, we hope to encourage positive communication and support a culture of kindness and respect on the platform.<br>
 
 
-## Set up 
+## Set Up 
 1.Install Python and the Discord.py library.<br>
 2.Create a new application in the [Discord Developer Portal](https://discord.com/developers/applications) and add a bot user to it.<br>
 2.Copy your bot token from the Bot tab of your application page.<br>
