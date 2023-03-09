@@ -1,10 +1,10 @@
-# SafeSpace
+# Spacey
 
 Bullying is a pervasive problem in our society, and online platforms are not immune to its effects. In recent years, online bullying has become a significant concern, particularly among young people. A study by the University of British Columbia found that one in three teens has experienced cyberbullying, while one in five teens have cyberbullied others. The study also found that the effects of cyberbullying can be just as harmful as traditional forms of bullying, including depression, anxiety, and even suicide.<br>
 
-In response to this growing problem, we have developed a solution in the form of a Discord bot called `SafeSpace` that can help reduce bullying behavior on the platform. <br>
+In response to this growing problem, we have developed a solution in the form of a Discord bot called `Spacey` that can help reduce bullying behavior on the platform. <br>
 
-**SafeSpace** is a Discordbot that monitors the messages and images sent to Discord Server and detects abusive and bullying images and messages. If any such incident is detected, SafeSpace deletes the message immediately, sends a direct message to that user on your behalf and warns them not to bully you, and also sends a message to the moderators to inform them of the behavior that was issued by the person, making it easier to identify and take appropriate action towards the offending user. This system is designed to create a safer, more positive environment on Discord, promoting respectful communication and discouraging bullying behavior.<br>
+**Spacey** is a Discordbot that monitors the messages and images sent to Discord Server and detects abusive and bullying images and messages. If any such incident is detected, SafeSpace deletes the message immediately, sends a direct message to that user on your behalf and warns them not to bully you, and also sends a message to the moderators to inform them of the behavior that was issued by the person, making it easier to identify and take appropriate action towards the offending user. This system is designed to create a safer, more positive environment on Discord, promoting respectful communication and discouraging bullying behavior.<br>
 
 
 ## Our Goal
