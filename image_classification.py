@@ -7,7 +7,13 @@ labels = ["bullying", "toxic", "neutral"]
 def classify_image(image_array):
     """
     This function takes an image array and enters it to the clip vit transformer
-    return : True if the image has bullying, toxic content or something like that
+    True if the image has bullying, toxic content or something like that
+    
+    Parameters:
+    - image_array: np.array
+    
+    Returns: 
+    - label
     """
     inputs = processor(text=labels, images=image_array, return_tensors="pt", padding=True)
 
