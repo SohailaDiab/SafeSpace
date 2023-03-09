@@ -6,7 +6,7 @@ moderator_id = 907992236522864710
 
 # These are the messages sent to the user that said toxic words
 
-hello_msg = "Hi there {name}, I hope you’re doing awesome! 😄\n "
+hello_msg = "Hi there, I hope you’re doing awesome! 😄\n "
 
 reply_members = [
     """Which could be hurtful to your colleague 😢 Did you mean to send that?\n
@@ -21,7 +21,7 @@ reply_members = [
        I’d be very happy if you think through what you said. Let’s try to keep this server a positive, safe place for all ❤️\n 
     """
 ]
-    
+    # Additional messages to be edited and added
 #     """Sometimes we all say things we don't mean when we're upset, but it's important to be mindful of how our words can affect others. Let's strive to treat everyone with kindness and respect, even when we're feeling angry or frustrated. If you need support or guidance, please don't hesitate to reach out""",
     
 #     """I noticed that some of your recent comments or actions may have been hurtful to others. It's important to remember that everyone deserves to be treated with kindness and respect, no matter our differences. Let's work together to create a community where everyone feels valued and supported.""",
