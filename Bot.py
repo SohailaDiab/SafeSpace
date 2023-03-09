@@ -41,8 +41,7 @@ async def on_message(message):
       print('Message sent successfully')
       
       #DMs the user
-      await message.author.send(f"{config.hello_msg}\nAccording to '{message.content}'\n{config.choose_msg()}")
-
+      await message.author.send(f'{config.hello_msg}\nI noticed that you sent: "{message.content}"\n{config.choose_msg()}')
   # check if the message is an image
   if message.attachments:
     for attachment in message.attachments:
