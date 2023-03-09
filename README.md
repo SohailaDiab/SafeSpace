@@ -1,4 +1,4 @@
-# SafeSpac
+# SafeSpace
 
 “Youth say that 95% of online bullying was intended as a joke and only 5% was intended to harm.”
 
