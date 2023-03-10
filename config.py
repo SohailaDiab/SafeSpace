@@ -55,4 +55,3 @@ reply_members = [
 
 def choose_msg():
     return np.random.choice(reply_members, 1)[0]
-
