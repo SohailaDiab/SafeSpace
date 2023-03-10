@@ -17,6 +17,11 @@ In response to this growing problem, we have developed a solution in the form of
 
 It also sends a message to the moderators to inform them of the behavior that was issued by the person, making it easier to identify and take appropriate action towards the user. This system is designed to create a safer, more positive environment on Discord, promoting respectful communication and discouraging bullying behavior. :) <br>
 
+### Why Spacey?
+
+![image](https://user-images.githubusercontent.com/70928356/224436791-795c6aa5-f4b9-48a8-8e53-d45d6310745c.png)
+
+
 ## Our Goal
 Our goal is to help reduce the negative effects of cyberbullying on Discord and create a more inclusive, welcoming community for all users. By implementing this bot, we hope to encourage positive communication and support a culture of kindness and respect on the platform.<br>
 
