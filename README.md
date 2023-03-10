@@ -28,6 +28,6 @@ After that, we used another transformer named [CLIPProcessor from openai](https:
 And by using these two models in Discord, we can identify bullying, whether in pictures or text messages, but otherwise it is ignored.
 
 
-## Our Demo![Bot]
-(https://user-images.githubusercontent.com/100795596/224210288-61b4bea7-e8f0-440a-991a-8c95a1a94aea.gif)
+## Our Demo!
+[Bot](https://user-images.githubusercontent.com/100795596/224210288-61b4bea7-e8f0-440a-991a-8c95a1a94aea.gif)
 
