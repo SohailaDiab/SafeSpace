@@ -44,5 +44,5 @@ And by using these two models in Discord, we can identify bullying, whether in p
 
 
 ## Our Demo!
-[SpaceyBot](https://user-images.githubusercontent.com/100795596/224210288-61b4bea7-e8f0-440a-991a-8c95a1a94aea.gif)
+![Spacey Demo](https://user-images.githubusercontent.com/100795596/224210288-61b4bea7-e8f0-440a-991a-8c95a1a94aea.gif)
 
