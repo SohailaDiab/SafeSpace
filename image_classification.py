@@ -25,4 +25,3 @@ def classify_image(image_array):
 
     if label != 'neutral':
         return True
-
