@@ -1,6 +1,7 @@
 from transformers import pipeline
 classifier = pipeline('text-classification','unitary/toxic-bert')
 
+
 def handle_response(text):
      """
     This function takes text message and classifiy it using toxic bert transformer
@@ -15,4 +16,3 @@ def handle_response(text):
 
     if score>=0.5:
         return True
-        
